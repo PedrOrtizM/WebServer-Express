@@ -5,7 +5,7 @@
   const port = process.env.PORT || 8080; // Para obtener el puerto donde heroku va a escuchar
 
 
-  //  MiddleWare: Un callback Se ejecuta simepre sin importar la URL
+  //  MiddleWare: Un callback Se ejecuta siempre sin importar la URL
   //  Todo lo que se ponga en esa carpeta será de acceso público
   app.use (  express.static( __dirname+ '/public' )   );
 
